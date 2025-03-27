@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <title>Golf Resort </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hole in one</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color:  #033a2c;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .navigation {
+            background-color: #033a2c;
+            padding: 10px;
+            text-align: center;
+        }
+        .navigation button {
+            background-color: #ffffff;
+            color: #000000;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        .navigation button:hover {
+            background-color: #ffffff;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px  #030303;
+        }
+        .contact-form h2 {
+            text-align: center;
+            color: #0e0d0d;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            color: #0a0a0a;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #033a2c;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .contact-form textarea {
+            resize: vertical;
+            height: 150px;
+        }
+      
+        .footer {
+            background-color:  #033a2c;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="شعار الموقع.jpg" , class="img111"><br><br><br><br>
+        <h1>اتصل بنا</h1>
+        <p> تواصل معنا لأي استفسارات تريد ان تعرفها </p>
+    </div>
+
+    <div class="navigation">
+        <button onclick="document.location='الصفحة الرئيسية.html '">  الصفحة الرئيسية</button>
+        <button onclick="document.location='معلومات عن الموقع .html '">معلومات عن الموقع</button>
+        <button onclick="document.location='الملاعب والنوادي.html'">الملاعب والنوادي</button>
+        <button onclick="document.location=' الفنادق.html'">الفنادق</button>
+        <button onclick="document.location='المطاعم والمقاهي.html '">المطاعم والمقاهي</button>
+        <button onclick="document.location='متجر لادوات الغولف .html '"> متجر لادوات الغولف </button>
+        <button onclick="document.location='الانشطة المتعددة.html'">الانشطة المتعددة </button>
+        <button onclick="document.location='العروض.html'"  >العروض</button>
+        <button onclick="document.location='الحجز.html'"  >الحجز</button>
+        <button onclick="document.location='اتصل بنا.html'"  >الاستفسارات</button>
+
+
+    </div>
+
+    <div class="contact-form">
+        <h2>نموذج الاتصال</h2>
+        <form action="#" method="post">
+            <label for="name">الاسم الكامل:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password"> كلمة المرور:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="subject">الموضوع:</label>
+            <input type="text" id="subject" name="subject" required>
+            <label for="message">اترك رسالة:</label>
+            <input type="text" id="message" name="message" required>
+            
+        <button type="submit">إرسال</button>
+        <div id="successMessage" class="success-message" style="display: none;">تم الارسال</div>
+
+

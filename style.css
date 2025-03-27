@@ -1,0 +1,148 @@
+\A{
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color:  #02311f;
+  
+  direction: rtl; /* لضمان الكتابة من اليمين إلى اليسار */
+
+}
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255); /* لون الخط */    
+}
+.header {
+  font-size: 20px; /* حجم الخط */
+  color: rgb(214, 214, 214); /* لون الخط */
+  text-align: center; /* محاذاة النص إلى المنتصف*/
+}
+.content {
+  font-size: 30px; /* حجم الخط */
+  color: rgb(255, 255, 255); /* لون الخط */
+  text-align:center; /* محاذاة النص إلى المنتصف*/
+}
+
+a {
+text-align:right;
+}
+
+label {
+text-align: right;
+font-size: 23px; /* حجم الخط */
+}
+
+input{
+text-align: right;
+}
+.img111 {
+  height: 100px;
+  width: 100px;
+  max-width: 800px;
+  float: left;
+  margin-top: 0px;
+
+}
+.img1 {
+  height: 200px;
+  width: 400px;
+  float: center;
+  margin-bottom: 10px;
+
+}
+
+.img2 {
+  height: 180px;
+  width: 200px;
+  float: center;
+  margin-right: 10px;
+  }
+  .img3 {
+      height: 180px;
+      width: 200px;
+      float: right;
+      margin-right: 10px;
+      }
+      .img4 {
+          height: 180px;
+          width: 200px;
+          float: right;
+          margin-right: 10px;
+          }
+          .img5 {
+              height: 180px;
+              width: 200px;
+              float: right;
+              margin-right: 10px;
+              }
+              .img6 {
+                  height: 180px;
+                  width: 200px;
+                  float: right;
+                  margin-right: 10px;
+                  }
+                  .img7 {
+                      height: 180px;
+                      width: 200px;
+                      float: right;
+                      margin-right: 10px;
+                  }
+                  .img8 {
+                      height: 180px;
+                      width: 200px;
+                      float: right;
+                      margin-right: 10px;
+                  }
+                  .img9 {
+                      height: 180px;
+                      width: 200px;
+                      float: right;
+                      margin-right: 10px;
+                  }
+                  
+                      
+
+
+                  .img10 {
+                      height: 180px;
+                      width: 200px;
+                      float: right;
+                      margin-right: 10px;
+                  }
+                  .img11 {
+                      height: 180px;
+                      width: 200px;
+                      float: right;
+                      margin-right: 10px;
+                  }
+                  .img12 {
+                      height: 180px;
+                      width: 200px;
+                      float: right;
+                      margin-right: 10px;
+                  }
+                  .img13 {
+                      height: 180px;
+                      width: 200px;
+                      float: right;
+                      margin-right: 10px;
+                      
+                  }
+.navigation {
+  clear: both; /* لضمان عدم التداخل مع عناصر أخرى */
+  padding: 20px 0; /* مساحة أعلى وأسفل الأزرار */
+}
+button {
+  font-size: 16px; /* حجم الخط للأزرار */
+  margin: 0 20px; /* مسافات بين الأزرار */
+
+}
+button:hover {
+  transform:scale(2.4);
+
+
+}
+    .zoom-buttons {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
